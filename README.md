@@ -53,3 +53,12 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Important
+
+You must use this user for the login:
+
+"email": "eve.holt@reqres.in",
+"password": "cityslicka"
+
+Signing in with any other user is not possible
