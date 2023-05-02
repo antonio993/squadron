@@ -24,19 +24,20 @@ If you are using docker, please navigate to the root of the project directory an
 
 #### Start FE
 
+Installs the required dependencies
+
 In the root directory of the project type:
 
 ```bash
 yarn install
 ```
 
-Installs the required dependencies
+Runs the app in the development mode:
 
 ```bash
 yarn start
 ```
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
