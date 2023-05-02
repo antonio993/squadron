@@ -1,6 +1,6 @@
 # SQUADRON APP
 
-This project consists of one **Front-end app\* written in ReactJs and Redux and a very simple **Server app\* which is used only for providing simple data to the FE app.
+This project consists of one **Front-end app** written in ReactJs and Redux and a very simple **Server app** which is used only for providing simple data to the FE app.
 
 ## Prerequisites
 
@@ -11,8 +11,8 @@ npm 9.1.2 or yarn 1.22.19
 
 ### Links in browser
 
-**FE app: http://localhost:3000/\*
-**Server app: http://localhost:5000/\*
+**FE app: http://localhost:3000/**
+**Server app: http://localhost:5000/**
 
 ### Docker
 
@@ -26,10 +26,14 @@ If you are using docker, please navigate to the root of the project directory an
 
 In the root directory of the project type:
 
+```bash
+yarn install
+```
+
 Installs the required dependencies
 
 ```bash
-yarn install
+yarn start
 ```
 
 Runs the app in the development mode.\
@@ -37,10 +41,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-```bash
-yarn start
-```
 
 #### Start server
 
@@ -54,7 +54,7 @@ npm install
 npm run dev
 ```
 
-## Important
+## Important!
 
 You must use this user for the login:
 
