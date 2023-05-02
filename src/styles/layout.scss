@@ -1,0 +1,73 @@
+@import "./variables/font";
+@import "./variables/layout";
+@import "./variables/colors";
+@import "./fontStyles";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  min-height: 800px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "GoldmanBold";
+}
+
+body {
+  box-sizing: content-box;
+  @include body400Medium;
+  background-color: rgb(231, 235, 240);
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+*,
+*:hover,
+*:active {
+  outline: none;
+}
+
+a {
+  &,
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:active {
+    color: $color-primary--70;
+  }
+}
+
+pre {
+  font-size: inherit;
+  color: inherit;
+  border: initial;
+  padding: initial;
+  font-family: inherit;
+  white-space: pre-line !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: $gray--05;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $gray--20;
+}

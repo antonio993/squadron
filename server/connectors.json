@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Name of the first connector update",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris.",
+    "status": "test 2",
+    "type": "test 2",
+    "id": "bc77f1f0-e6e5-11ed-827d-cd822ad7ec70",
+    "pins": [
+      {
+        "name": "First pin update"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "First Connector update",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris.",
+    "status": "test 1",
+    "type": "Test type 1",
+    "pins": [
+      {
+        "id": "1",
+        "name": "First pin name",
+        "connectedPins": [
+          "2"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Third pin name",
+        "connectedPins": [
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Second Connector",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris.",
+    "status": "test 2",
+    "type": "Test Type 2",
+    "pins": [
+      {
+        "id": "2",
+        "name": "Second pin name",
+        "connectedPins": [
+          "1"
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Fourth pin name",
+        "connectedPins": [
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Third Connector",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris.",
+    "status": "test 1",
+    "type": "test 3",
+    "id": "85f8d130-e6c7-11ed-b503-1fb87471e91f",
+    "pins": [
+      {
+        "name": "Test pinsada"
+      }
+    ]
+  },
+  {
+    "name": "Fourth connector",
+    "description": "desc update dsa dsadsad asd asdas dsa das dasd sda dasd asd asdas dasd as das da asd asdasd asd as dasd asd sad sad sad asd sad as dasd as",
+    "status": "test 2",
+    "type": "type",
+    "id": "aaa2d210-e6e5-11ed-8850-29682568b255",
+    "pins": []
+  },
+  {
+    "name": "Test Connector",
+    "description": "Desc",
+    "status": "test 1",
+    "type": "test 1",
+    "pins": [
+      {
+        "name": "First pin"
+      },
+      {
+        "name": "Second pin"
+      }
+    ],
+    "id": "a02f1ee0-e84a-11ed-a2ba-9ff74f8dc5e8"
+  },
+  {
+    "name": "Conn",
+    "description": "qeweq",
+    "status": "test 3",
+    "type": "test 3",
+    "pins": [],
+    "id": "cf325680-e84a-11ed-9dd2-93f63fc897f4"
+  },
+  {
+    "name": "Newest update",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris.",
+    "status": "test 1",
+    "type": "test 2",
+    "pins": [],
+    "id": "3c4b4c50-e8d1-11ed-9fed-7da5b4f326a3"
+  }
+]

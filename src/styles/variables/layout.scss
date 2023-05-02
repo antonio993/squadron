@@ -1,0 +1,77 @@
+$padding_base: 4px !default;
+$padding_xs: 2px !default;
+$padding_s: 2 * $padding_base !default;
+$padding_m: 3 * $padding_base !default;
+$padding_l: 4 * $padding_base !default;
+$padding_xl: 5 * $padding_base !default;
+$padding_xxl: 6 * $padding_base !default;
+
+$size_05: 5px;
+$size_10: 10px;
+$size_12: 12px;
+$size_14: 14px;
+$size_16: 16px;
+$size_18: 18px;
+$size_20: 20px;
+$size_22: 22px;
+$size_24: 24px;
+$size_27: 27px;
+$size_28: 28px;
+$size_30: 30px;
+$size_32: 32px;
+$size_36: 36px;
+$size_40: 40px;
+$size_48: 48px;
+$size_56: 56px;
+$size_100: 100px;
+
+$contentPadding: $padding_xxl !default; // containers
+
+$cellPadding: $padding_m !default; // tables
+$cellLineHeight: $size_24 !default; // tables
+
+$sidebarWidth: 73px !default;
+$sidebarIcon: $size_24 !default;
+$linkHeight: $size_36 !default;
+$headerHeight: 2 * $size_22 !default;
+$inputHeight: $size_36 !default;
+$inputMinWidth: 2 * $size_100 !default;
+$inputPadding: 0 6px 0 $padding_m !default;
+$maxDropdownHeight: 3 * $size_100 !default;
+$checkboxSize: $size_16 !default;
+$checkboxLabelSize: $size_24 !default;
+
+// Deprecated varibale, should be removed
+$buttonHeight: 44px !default;
+
+// Different button sizes
+$button2Height_xs: $size_24 !default;
+$button2Height_s: $size_32 !default;
+$button2Height_m: $size_36 !default;
+$button2Height_l: $size_48 !default;
+$button2Height_xl: $size_56 !default;
+$buttonRound_m: $size_40 !default;
+
+$popupLightWidth: 450px !default;
+
+$borderRadius: $padding_base !default;
+$borderRadius_m: $padding_m;
+
+$phoneMarginTop: $padding_m !default;
+$phoneAlignItems: center !default;
+
+$avatarMargin: 85px;
+$avatarSize: 96px;
+
+$transition_duration: .2s;
+$transition-primary: all $transition_duration;
+
+// Sizes for media queries
+$screen-xs-max: 575px;
+$screen-sm-min: 576px;
+$screen-sm-max: 767px;
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+$screen-lg-min: 992px;
+$screen-lg-max: 1199px;
+$screen-xl-min: 1200px;

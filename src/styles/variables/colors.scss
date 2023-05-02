@@ -1,0 +1,124 @@
+// Primary color - Tints and shades
+$color-primary--03: #FDFEFF !default;
+$color-primary--05: #F4F8FD !default;
+$color-primary--10: #DFEBF9 !default;
+$color-primary--20: #B6D2F2 !default;
+$color-primary--30: #88B4EA !default;
+$color-primary--40: #5F9AE3 !default;
+$color-primary--50: #327EDA !default;
+$color-primary--60: #2166BA !default;
+$color-primary--70: #194E8F !default;
+$color-primary--80: #123661 !default;
+$color-primary--90: #0A1E36 !default;
+
+// Secondary color - Tints and shades
+$color-secondary--03: #FFF7F6 !default;
+$color-secondary--05: #FFEDEC !default;
+$color-secondary--10: #FFD6D2 !default;
+$color-secondary--20: #FFA89F !default;
+$color-secondary--30: #FF7A6B !default;
+$color-secondary--40: #FF4B39 !default;
+$color-secondary--50: #FF1D06 !default;
+$color-secondary--60: #D21300 !default;
+$color-secondary--70: #9F0F00 !default;
+$color-secondary--80: #6C0A00 !default;
+$color-secondary--90: #390500 !default;
+
+// Tertiary color - Tints and shades
+$color-tertiary--03: #FFFAF2 !default;
+$color-tertiary--05: #FFF6E8 !default;
+$color-tertiary--10: #FFEDCE !default;
+$color-tertiary--20: #FFDA9B !default;
+$color-tertiary--30: #FFC768 !default;
+$color-tertiary--40: #FFB535 !default;
+$color-tertiary--50: #FFA202 !default;
+$color-tertiary--60: #CE8200 !default;
+$color-tertiary--70: #9B6200 !default;
+$color-tertiary--80: #684200 !default;
+$color-tertiary--90: #352200 !default;
+
+// Quarternary color - Tints and shades
+$color-quarternary--03: #F2FBF6 !default;
+$color-quarternary--05: #EAF9F1 !default;
+$color-quarternary--10: #D6F3E4 !default;
+$color-quarternary--20: #AFE7CB !default;
+$color-quarternary--30: #88DBB1 !default;
+$color-quarternary--40: #60D098 !default;
+$color-quarternary--50: #3AC37E !default;
+$color-quarternary--60: #2E9C65 !default;
+$color-quarternary--70: #23744B !default;
+$color-quarternary--80: #174D32 !default;
+$color-quarternary--90: #0B2618 !default;
+
+// Tertiary color - Tints and shades
+$gray--00: #FFFFFF !default;
+$gray--01: #FCFCFC !default;
+$gray--03: #F7F7F7 !default;
+$gray--05: #F2F2F2 !default;
+$gray--10: #E6E5E6 !default;
+$gray--20: #CDCBCD !default;
+$gray--30: #B4B1B4 !default;
+$gray--40: #9B979B !default;
+$gray--50: #827D82 !default;
+$gray--60: #686468 !default;
+$gray--70: #4E4B4E !default;
+$gray--80: #343234 !default;
+$gray--90: #1A191A !default;
+$gray--100: #000000 !default;
+
+// Support colors - Tints and shades
+$support--yellow: #FFDF0D !default;
+$support--yellow-orange: #FFA60D !default;
+$support--orange: #FF7C0D !default;
+$support--orange-red: #FB480D !default;
+$support--red: #E80404 !default;
+$support--red-magenta: #C21977 !default;
+$support--magenta: #892496 !default;
+$support--blue-magenta: #4F2FB3 !default;
+$support--blue: #0D61D9 !default;
+$support--cyan: #0D99CD !default;
+$support--green-cyan: #0DC170 !default;
+$support--green: #69DA0D !default;
+
+$color-primary: $color-primary--50 !default;
+$color-secondary: $color-secondary--50 !default;
+$color-tertiary: $color-tertiary--50 !default;
+$color-quarternary: $color-quarternary--50 !default;
+
+$white: $gray--00 !default;
+$gray: $gray--50 !default;
+$black: $gray--100 !default;
+
+$color-alert: $support--yellow-orange !default;
+$color-error: $support--red !default;
+$color-success: $support--green !default;
+
+// old colors
+$main-dark: #061625 !default;
+$logoColor: #ff7a6c !default;
+
+$sub1: #5a5de3 !default;
+$sub2: #33d1d7 !default;
+
+$blue-dark1: #042f57 !default;
+$blue-dark2: #223140 !default;
+
+$borderColor: $gray--10 !default;
+$borderColor-blue-darker: $color-primary--70 !default;
+$shadowColor: $gray !default;
+$boxShadowInput_focus: 0px 8px 10px rgba(50, 126, 218, 0.07), 0px 3px 14px rgba(50, 126, 218, 0.06), 0px 4px 5px rgba(50, 126, 218, 0.1);
+
+$inputBorderColor: $gray--30 !default;
+$inputBorderColor_hover: $gray !default;
+$inputBorderColor_focus: $color-primary !default;
+
+$dropdownLinkColor_hover: darken($blue-dark2, 5%) !default;
+$dropdownLinkBg_hover: $gray--05 !default;
+
+$contentBackgroundColor: $gray--01;
+$selectItemBackgroundHover: rgba($color: $color-primary, $alpha: 0.04) !default;
+$selectItemBackgroundActive: rgba($color: $color-primary, $alpha: 0.12) !default;
+
+$tertiaryFocusColor: rgba($color: $gray, $alpha: 0.12) !default;
+
+$patientCardBg_hover: $gray--03 !default;

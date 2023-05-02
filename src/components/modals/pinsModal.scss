@@ -1,0 +1,46 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+  text-align: center;
+
+  list-style: none;
+  cursor: pointer;
+}
+
+li.drag-sort-active {
+  background: transparent;
+  color: transparent;
+  border: 1px solid #4ca1af;
+}
+
+/** CSS FOR THE PINS */
+.pin2 {
+  position: absolute;
+  left: 25%;
+  /* top: 40%;
+  margin-left: 115px; */
+  
+  border-radius: 50%;
+  border: 6px solid blue;
+  width: 23px;
+  height: 17px;
+}
+
+.pin2::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  bottom: -27px;
+  left: -4px;
+  border: 10px solid transparent;
+  border-top: 17px solid blue;
+}

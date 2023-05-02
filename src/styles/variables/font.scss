@@ -1,0 +1,22 @@
+$font-regular: TTNormsPro-Regular, 'sans-serif';
+$font-medium: TTNormsPro-Medium, 'sans-serif';
+
+$font-size-base_16: 1rem !default; //16px
+$font-size-base: $font-size-base_16 * .9375 !default; //15px
+$font-size-xs: $font-size-base_16 * .75 !default; //12px
+$font-size-sm: $font-size-base_16 * .875 !default; //14px
+$font-size-m: $font-size-base_16 * 1.125 !default; //18px
+$font-size-lg: $font-size-base_16 * 1.25 !default; //20px
+$font-size-xl: $font-size-base_16 * 1.5 !default; //24px
+$font-size-xxl: $font-size-base_16 * 1.7 !default; //26px
+$font-size-xxxl: $font-size-base_16 * 2 !default; //32px
+
+$font-size-13: $font-size-base_16 * .8125 !default; //13px
+
+$fontWeight_regular: 400 !default;
+$fontWeight_medium: 500 !default;
+$fontWeight_bold: 600 !default;
+
+$letter_spacing_s: 0.2px;
+$letter_spacing_m: 0.3px;
+$letter_spacing_l: 0.4px;

@@ -1,0 +1,21 @@
+{
+    "translation": {
+      "addAmount": "Додади сума",
+      "home": "Дома",
+      "connector": "Конектор",
+      "english": "Англиски",
+      "macedonian": "Македонски",
+      "add": "Додади",
+      "search": "Пребарај",
+      "logout": "Одјави се",
+      "sortBy": "Подреди по",
+      "name": "Име",
+      "description": "Опис",
+      "status": "Статус",
+      "type": "Тип",
+      "sortDirection": "Насока на сорт.",
+      "asc": "Растечка",
+      "dsc": "Опаѓачка",
+      "welcomeMessage": "Добредојдовте. Ве молиме одете до Конектор"
+    }
+}

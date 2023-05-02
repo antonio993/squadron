@@ -1,0 +1,20 @@
+{
+    "translation": {
+      "home": "Home",
+      "connector": "Connector",
+      "english": "English",
+      "macedonian": "Macedonian",
+      "add": "Add",
+      "search": "Search",
+      "logout": "Logout",
+      "sortBy": "Sort By",
+      "name": "Name",
+      "description": "Description",
+      "status": "Status",
+      "type": "Type",
+      "sortDirection": "Sort Direction",
+      "asc": "Ascending",
+      "dsc": "Descending",
+      "welcomeMessage": "This is Home. Please navigate to connector!"
+    }
+}

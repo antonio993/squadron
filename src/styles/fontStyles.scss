@@ -1,0 +1,129 @@
+@mixin headingLarge($color: $gray--90){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $size_27;
+  line-height: $size_32;
+  letter-spacing: $letter_spacing_s;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin headingMedium($color: $gray--90){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $size_22;
+  line-height: $size_28;
+  letter-spacing: $letter_spacing_m;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin headingSmall($color: $gray--90){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $font-size-m;
+  line-height: $size_24;
+  letter-spacing: $letter_spacing_m;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin headingTiny($color: $gray--90){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $font-size-base;
+  line-height: $size_24;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin headingLabel($color: $gray--90){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $font-size-13;
+  line-height: $size_24;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body400Large($color: $gray--70){
+  font-family: $font-regular;
+  color: $color;
+  font-size: $font-size-m;
+  line-height: $size_28;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body500Large($color: $gray--70){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $font-size-m;
+  line-height: $size_28;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body400Medium($color: $gray--70){
+  font-family: $font-regular;
+  color: $color;
+  font-size: $font-size-base;
+  line-height: $size_24;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body500Medium($color: $gray--70){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $font-size-base;
+  line-height: $size_24;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body400Small($color: $gray--70){
+  font-family: $font-regular;
+  color: $color;
+  font-size: $font-size-13;
+  line-height: $size_20;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body500Small($color: $gray--70){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $font-size-13;
+  line-height: $size_20;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body400Tiny($color: $gray--70){
+  font-family: $font-regular;
+  color: $color;
+  font-size: $font-size-xs;
+  line-height: $size_16;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
+
+@mixin body500Tiny($color: $gray--70){
+  font-family: $font-medium;
+  color: $color;
+  font-size: $font-size-xs;
+  line-height: $size_16;
+  letter-spacing: $letter_spacing_l;
+  font-style: normal;
+  font-weight: $fontWeight_regular;
+}
